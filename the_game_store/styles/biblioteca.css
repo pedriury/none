@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    background-color: rgb(26, 35, 126);
+}
+
+.header{
+    background-image: url("images/background/back1.png");
+    background-repeat:round;
+    width: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    background-color: #000;
+    width: 20%;
+    height: 40px;
+    margin: 30px;
+    border: solid 5px #666666;
+    outline: solid 5px #fff;
+    color: #fff;
+    font-size: 30px;
+}
+
+.user{
+    background-color: #000;
+    width: 10%;
+    height: 30px;
+    margin: 20px;
+    outline: outset 5px #fff;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+
+.body{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.left_body{
+    width: 80%;
+    height: auto;
+}
+
+.right_body{
+    background-color: rgb(7, 13, 78);
+    width: 20%;
+    height: 100vh;
+}
